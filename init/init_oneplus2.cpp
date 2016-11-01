@@ -36,7 +36,7 @@
 
 void init_variant_properties() {
 
-    std::string platform;
+    std::string device = property_get("ro.du.device");
     std::string rf_version;
 
     platform = property_get("ro.board.platform");
