@@ -38,7 +38,7 @@ using android::base::GetProperty;
 
 void init_variant_properties() {
 
-    std::string platform;
+    std::string device = property_get("ro.du.device");
     std::string rf_version;
 
     platform = GetProperty("ro.board.platform", "");
