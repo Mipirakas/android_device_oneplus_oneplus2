@@ -5,9 +5,9 @@
    "branch"     :  "n7x-caf"
  },
  {
-   "repository" : "DirtyUnicorns/android_kernel_oneplus_msm8994",
+   "repository" : "Mipirakas/android_kernel_oneplus_msm8994",
    "target_path": "kernel/oneplus/msm8994",
-   "branch"     : "n7x-caf"
+   "branch"     : "test"
  },
  {
    "repository" : "DirtyUnicorns/android_system_qcom",
@@ -30,9 +30,9 @@
    "branch"     : "n7x-caf"
  },
  {
-   "repository" : "DirtyUnicorns/android_vendor_oneplus",
+   "repository" : "Mipirakas/android_vendor_oneplus",
    "target_path": "vendor/oneplus",
-   "branch"     : "n7x-caf"
+   "branch"     : "test"
  },
  {
    "repository" : "DirtyUnicorns/android_vendor_qcom_binaries",
