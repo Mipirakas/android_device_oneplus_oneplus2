@@ -216,7 +216,6 @@ framework/ConnectivityExt.jar|67025d09bbc7bb87bca1d15ab9c133eeb1ef2b9d
 framework/cneapiclient.jar|3cb56a579341acfb16d2be2e41bac2c7b6ac34b4
 framework/com.quicinc.cne.jar|647d841a0d89b64daf6befa61747dc62ac757ba5
 -priv-app/CNEService/CNEService.apk|e4a3bcf497bf1e2cc822205bc9adc59ac232cb6c
-vendor/lib/libNimsWrap.so
 vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneconn.so
@@ -224,7 +223,6 @@ vendor/lib/libcneqmiutils.so
 vendor/lib/libvendorconn.so
 vendor/lib/libwqe.so
 vendor/lib/libxml.so
-vendor/lib64/libNimsWrap.so
 vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneconn.so
