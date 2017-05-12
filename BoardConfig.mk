@@ -111,6 +111,8 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
+# Enable real time lockscreen charging current values	
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
