@@ -41,8 +41,7 @@ void init_variant_properties() {
     std::string device = property_get("ro.du.device");
     std::string rf_version;
 
-    platform = GetProperty("ro.board.platform", "");
-    if (platform != ANDROID_TARGET)
+    if (device != "oneplus2")
         return;
 
     rf_version = GetProperty("ro.boot.rf_v1", "");
