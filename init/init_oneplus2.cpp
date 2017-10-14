@@ -38,10 +38,11 @@ using android::base::GetProperty;
 
 void init_variant_properties() {
 
-    std::string device = property_get("ro.du.device");
+    std::string platform;
     std::string rf_version;
 
-    if (device != "oneplus2")
+    platform = GetProperty("ro.board.platform", "");
+    if (platform != ANDROID_TARGET)
         return;
 
     rf_version = GetProperty("ro.boot.rf_v1", "");
