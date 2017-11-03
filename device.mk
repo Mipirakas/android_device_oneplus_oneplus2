@@ -288,7 +288,7 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2 \
     rild_socket
-    
+
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -343,4 +343,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/netmgrd_control.sh:system/etc/netmgrd_control.sh
 
 # Inherit from oppo-common
-#$(call inherit-product, device/oppo/common/common.mk)
+$(call inherit-product, device/oppo/common/common.mk)
