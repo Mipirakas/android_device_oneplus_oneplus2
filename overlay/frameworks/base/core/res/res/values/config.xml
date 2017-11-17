@@ -70,20 +70,20 @@
     <integer name="config_screenBrightnessSettingDefault">55</integer>
 
     <!-- Does the notification LED support multiple colors?
-         Used to decide if the user can change the colors
-    <bool name="config_multiColorNotificationLed">true</bool> -->
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorNotificationLed">true</bool>
 
     <!-- Does the battery LED support multiple colors?
-         Used to decide if the user can change the colors
-    <bool name="config_multiColorBatteryLed">true</bool> -->
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
 
-    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option
-    <bool name="config_intrusiveNotificationLed">true</bool> -->
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option 
-    <bool name="config_intrusiveBatteryLed">true</bool> -->
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
 
-    <!-- Button illumination 
+    <!-- Button illumination
     <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
@@ -122,7 +122,7 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. 
+         config to 7.
     <integer name="config_deviceHardwareKeys">83</integer> -->
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
@@ -136,7 +136,7 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. 
+         config to 7.
     <integer name="config_deviceHardwareWakeKeys">64</integer> -->
 
     <!-- Control the behavior when the user long presses the home button
@@ -431,9 +431,9 @@
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
     <!-- Do the battery/notification LEDs support pulsing?
-         Used to decide if we show pulse settings
-    <bool name="config_ledCanPulse">true</bool> -->
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">true</bool>
 
-    <!-- 
+    <!--
     <bool name="config_fingerprintRemoveClientOnCancel">true</bool> -->
 </resources>
