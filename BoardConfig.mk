@@ -116,6 +116,9 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 ENABLE_CPUSETS := true
 ENABLE_SCHED_BOOST := true
 
+# Dependencies
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Filesystem
 TARGET_FS_CONFIG := $(PLATFORM_PATH)/config.fs
 
